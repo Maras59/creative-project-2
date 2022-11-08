@@ -47,7 +47,7 @@ img {
     border: 5px solid #555;
 }
 
-.button {
+#button {
     height: 40px;
     width: 120px;
     background-color: white;
@@ -59,7 +59,7 @@ img {
     transition-duration: 0.4s;
 }
 
-.button:hover {
+#button:hover {
     background-color: #555555;
     color: white;
 }

@@ -220,3 +220,7 @@ document.getElementById("charSub").addEventListener("click", function(event) {
       document.getElementById("results").innerHTML = results;
     });
 });
+
+document.getElementById("button").onclick = function () {
+        location.href = "https://github.com/Maras59/creative-project-2";
+    };
