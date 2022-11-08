@@ -1,0 +1,48 @@
+body {
+ background-color: #ADD8E6;
+ font-family: Arial, Helvetica, sans-serif;
+ background-image: url(bkg.jpg);
+}
+
+h1 {
+    text-align: center
+}
+
+.portraitButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#info {
+    text-align: center;
+}
+
+.imgbtn {
+    width: 100px;
+    height: 125px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    cursor: pointer;
+}
+
+#results {
+    display: flex;
+    flex-direction: row;
+}
+
+#jsonimg {
+    height: auto; 
+    width: auto; 
+    max-width: 700px; 
+    max-height: 700px;
+    margin-right: 20px;
+
+}
+
+img {
+    border: 5px solid #555;
+}
