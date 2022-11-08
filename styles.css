@@ -46,3 +46,22 @@ h1 {
 img {
     border: 5px solid #555;
 }
+
+.button {
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+    
